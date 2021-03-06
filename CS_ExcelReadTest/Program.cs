@@ -57,8 +57,8 @@ namespace CS_AddressTest
                 if (sAptCode == null)
                     break;
                 
-                if (sAdminAddr == null || sRoadAddr == null)
-                    continue; 
+                //if (sAdminAddr == null || sRoadAddr == null)
+                //    continue; 
 
                 Debug.WriteLine("{0}, {1}, {2}, {3} / {4}", sAptCode, sAptName, sAdminAddr, sRoadAddr, RowIdx);
                 RetString = sAdminAddr + "\t" + sRoadAddr + "\t" + sAptName + "\t" + sAptCode;
